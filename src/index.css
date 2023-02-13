@@ -1,0 +1,14 @@
+@-moz-document url-prefix() {
+  html {
+    scrollbar-width: none;
+  }
+}
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
